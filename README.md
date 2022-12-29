@@ -1,4 +1,4 @@
-# Project Title
+# JavaScript String Manipulation
 * **Purpose** - To gain familiarity with functions and instance methods
 
 
