@@ -10,8 +10,6 @@ class ArrayToStringTestRunner {
     arrayToStringTest.testLowerCase();
     arrayToStringTest.testUpperCase();
     arrayToStringTest.testMixedCase();
-    arrayToStringTest.testNumbers();
-    arrayToStringTest.testSpecialCharacters();
   }
 }
 

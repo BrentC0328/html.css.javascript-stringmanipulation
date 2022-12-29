@@ -10,7 +10,7 @@ class RemoveVowelsTest {
       const expectedOutput = "th qck brwn fx jmps vr th lzy dg.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.removeVowels);
+      test(expectedOutput, manipulator, manipulator.removeVowels);
     }
   
     // Define a test case for the removeVowels method with an uppercase string
@@ -22,7 +22,7 @@ class RemoveVowelsTest {
       const expectedOutput = "TH QCK BRWN FX JMPS VR TH LZY DG.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.removeVowels);
+      test(expectedOutput, manipulator, manipulator.removeVowels);
     }
   
     // Define a test case for the removeVowels method with a mixed-case string
@@ -34,6 +34,6 @@ class RemoveVowelsTest {
       const expectedOutput = "Th QcK BrwN fx Jmps vr Th Lzy Dg.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.removeVowels);
+      test(expectedOutput, manipulator, manipulator.removeVowels);
     }
 }

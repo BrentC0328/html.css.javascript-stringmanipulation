@@ -10,8 +10,6 @@ class RemoveVowelsTestRunner {
     removeVowelsTest.testLowerCase();
     removeVowelsTest.testUpperCase();
     removeVowelsTest.testMixedCase();
-    removeVowelsTest.testNumbers();
-    removeVowelsTest.testSpecialCharacters();
   }
 }
 

@@ -10,8 +10,6 @@ class RemovePunctuationTestRunner {
     removePunctuationTest.testLowerCase();
     removePunctuationTest.testUpperCase();
     removePunctuationTest.testMixedCase();
-    removePunctuationTest.testNumbers();
-    removePunctuationTest.testSpecialCharacters();
   }
 }
 

@@ -10,7 +10,7 @@ class ToUpperCaseTest {
     const expectedOutput = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.toUpperCase);
+    test(expectedOutput, manipulator, manipulator.toUpperCase);
   }
 
   // Define a test case for the toUpperCase method with an uppercase string
@@ -22,7 +22,7 @@ class ToUpperCaseTest {
     const expectedOutput = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.toUpperCase);
+    test(expectedOutput, manipulator, manipulator.toUpperCase);
   }
 
   // Define a test case for the toUpperCase method with a mixed-case string
@@ -34,7 +34,7 @@ class ToUpperCaseTest {
     const expectedOutput = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.toUpperCase);
+    test(expectedOutput, manipulator, manipulator.toUpperCase);
   }
 
   // Define a test case for the toUpperCase method with a string containing numbers
@@ -46,6 +46,6 @@ class ToUpperCaseTest {
     const expectedOutput = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG123";
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.toUpperCase);
+    test(expectedOutput, manipulator, manipulator.toUpperCase);
   }
 }

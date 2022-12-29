@@ -10,7 +10,7 @@ class ArrayToStringTest {
       const expectedOutput = "the quick brown fox jumps over the lazy dog.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.arrayToString);
+      test(expectedOutput, manipulator, manipulator.arrayToString, []);
     }
   
     // Define a test case for the arrayToString method with an array of uppercase strings
@@ -22,7 +22,7 @@ class ArrayToStringTest {
       const expectedOutput = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.arrayToString);
+      test(expectedOutput, manipulator, manipulator.arrayToString, []);
     }
   
     // Define a test case for the arrayToString method with an array of mixed-case strings
@@ -34,6 +34,6 @@ class ArrayToStringTest {
       const expectedOutput = "ThE QuIcK BrOwN fOx JuMpS OvEr ThE LaZy DoG.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.arrayToString);
+      test(expectedOutput, manipulator, manipulator.arrayToString, []);
     } 
 }  

@@ -10,8 +10,6 @@ class RepeatStringTestRunner {
     repeatStringTest.testLowerCase();
     repeatStringTest.testUpperCase();
     repeatStringTest.testMixedCase();
-    repeatStringTest.testNumbers();
-    repeatStringTest.testSpecialCharacters();
   }
 }
 

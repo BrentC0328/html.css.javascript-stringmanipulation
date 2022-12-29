@@ -10,8 +10,6 @@ class StringToArrayTestRunner {
     stringToArrayTest.testLowerCase();
     stringToArrayTest.testUpperCase();
     stringToArrayTest.testMixedCase();
-    stringToArrayTest.testNumbers();
-    stringToArrayTest.testSpecialCharacters();
   }
 }
 

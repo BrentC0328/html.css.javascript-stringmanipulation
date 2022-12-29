@@ -10,8 +10,6 @@ class ToUpperCaseTestRunner {
       toUpperCaseTest.testLowerCase();
       toUpperCaseTest.testUpperCase();
       toUpperCaseTest.testMixedCase();
-      toUpperCaseTest.testNumbers();
-      toUpperCaseTest.testSpecialCharacters();
     }
   }
   

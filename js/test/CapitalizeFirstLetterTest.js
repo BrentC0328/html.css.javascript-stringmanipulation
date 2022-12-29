@@ -10,7 +10,7 @@ class CapitalizeFirstLetterTest {
     const expectedOutput = "The quick brown fox jumps over the lazy dog.";
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.capitalizeFirstLetter);
+    test(expectedOutput, manipulator, manipulator.capitalizeFirstLetter);
   }
 
   // Define a test case for the capitalizeFirstLetter method with an uppercase string
@@ -22,7 +22,7 @@ class CapitalizeFirstLetterTest {
     const expectedOutput = "The quick brown fox jumps over the lazy dog.";
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.capitalizeFirstLetter);
+    test(expectedOutput, manipulator, manipulator.capitalizeFirstLetter);
   }
 
   // Define a test case for the capitalizeFirstLetter method with a mixed-case string
@@ -34,6 +34,6 @@ class CapitalizeFirstLetterTest {
     const expectedOutput = "The quick brown fox jumps over the lazy dog.";
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.capitalizeFirstLetter);
+    test(expectedOutput, manipulator, manipulator.capitalizeFirstLetter);
   }
 }

@@ -10,7 +10,7 @@ class RepeatStringTest {
       const expectedOutput = "the quick brown fox jumps over the lazy dog.the quick brown fox jumps over the lazy dog.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.repeatString, 2);
+      test(expectedOutput, manipulator, manipulator.repeatString, 2);
     }
   
     // Define a test case for the repeatString method with an uppercase string and repeat count of 3
@@ -22,7 +22,7 @@ class RepeatStringTest {
       const expectedOutput = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.repeatString, 3);
+      test(expectedOutput, manipulator, manipulator.repeatString, 3);
     }
   
     // Define a test case for the repeatString method with a mixed-case string and repeat count of 4
@@ -34,6 +34,6 @@ class RepeatStringTest {
       const expectedOutput = "ThE QuIcK BrOwN fOx JuMpS OvEr ThE LaZy DoG.ThE QuIcK BrOwN fOx JuMpS OvEr ThE LaZy DoG.ThE QuIcK BrOwN fOx JuMpS OvEr ThE LaZy DoG.ThE QuIcK BrOwN fOx JuMpS OvEr ThE LaZy DoG.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.repeatString, 4);
+      test(expectedOutput, manipulator, manipulator.repeatString, 4);
     }
 }  

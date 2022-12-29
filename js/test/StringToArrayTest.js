@@ -10,7 +10,7 @@ class StringToArrayTest {
     const expectedOutput = ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog."];
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.stringToArray);
+    test(expectedOutput, manipulator, manipulator.stringToArray);
   }
 
   // Define a test case for the stringToArray method with an uppercase string
@@ -22,7 +22,7 @@ class StringToArrayTest {
     const expectedOutput = ["THE", "QUICK", "BROWN", "FOX", "JUMPS", "OVER", "THE", "LAZY", "DOG."];
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.stringToArray);
+    test(expectedOutput, manipulator, manipulator.stringToArray);
   }
 
   // Define a test case for the stringToArray method with a mixed-case string
@@ -34,6 +34,6 @@ class StringToArrayTest {
     const expectedOutput = ["ThE", "QuIcK", "BrOwN", "fOx", "JuMpS", "OvEr", "ThE", "LaZy", "DoG."];
 
     // Call the test function and pass in the method name, expected output, and the method being tested
-    test(expectedOutput, manipulator.stringToArray);
+    test(expectedOutput, manipulator, manipulator.stringToArray);
   } 
 }  

@@ -10,7 +10,7 @@ class GetStringLengthTest {
       const expectedOutput = 44;
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.getStringLength);
+      test(expectedOutput, manipulator, manipulator.getStringLength);
     }
   
     // Define a test case for the getStringLength method with an uppercase string
@@ -22,7 +22,7 @@ class GetStringLengthTest {
       const expectedOutput = 44;
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.getStringLength);
+      test(expectedOutput, manipulator, manipulator.getStringLength);
     }
   
     // Define a test case for the getStringLength method with a mixed-case string
@@ -34,7 +34,7 @@ class GetStringLengthTest {
       const expectedOutput = 44;
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.getStringLength);
+      test(expectedOutput, manipulator, manipulator.getStringLength);
     }
   
     // Define a test case for the getStringLength method with a string containing numbers
@@ -46,7 +46,7 @@ class GetStringLengthTest {
       const expectedOutput = 46;
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.getStringLength);
+      test(expectedOutput, manipulator, manipulator.getStringLength);
     }
   
     // Define a test case for the getStringLength method with an empty string
@@ -58,6 +58,6 @@ class GetStringLengthTest {
       const expectedOutput = 0;
   
       // Call the test function and pass in the method name, expected output, and the method being tested
-      test(expectedOutput, manipulator.getStringLength);
+      test(expectedOutput, manipulator, manipulator.getStringLength);
     }
 }

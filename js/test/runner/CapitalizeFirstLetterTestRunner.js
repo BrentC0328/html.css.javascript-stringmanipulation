@@ -10,8 +10,6 @@ class CapitalizeFirstLetterTestRunner {
     capitalizeFirstLetterTest.testLowerCase();
     capitalizeFirstLetterTest.testUpperCase();
     capitalizeFirstLetterTest.testMixedCase();
-    capitalizeFirstLetterTest.testNumbers();
-    capitalizeFirstLetterTest.testSpecialCharacters();
   }
 }
 

@@ -10,8 +10,6 @@ class GetStringLengthTestRunner {
     getStringLengthTest.testLowerCase();
     getStringLengthTest.testUpperCase();
     getStringLengthTest.testMixedCase();
-    getStringLengthTest.testNumbers();
-    getStringLengthTest.testSpecialCharacters();
   }
 }
 
