@@ -31,7 +31,7 @@ class RemoveVowelsTest {
       const manipulator = new StringManipulation("ThE QuIcK BrOwN fOx JuMpS OvEr ThE LaZy DoG.");
   
       // Define the expected output for the removeVowels method
-      const expectedOutput = "Th QcK BrwN fx Jmps vr Th Lzy Dg.";
+      const expectedOutput = "Th QcK BrwN fx JMpS vr Th LZy DG.";
   
       // Call the test function and pass in the method name, expected output, and the method being tested
       test(expectedOutput, manipulator, manipulator.removeVowels);

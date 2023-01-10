@@ -40,7 +40,8 @@ class StringManipulation {
 
   // Define a method that returns a string with the words in the provided array joined together
   arrayToString(arr) {
-    const toTheString = arr.join(', ');
+    console.log(arr);
+    let toTheString = arr.join(' ');
     return toTheString;
   }
 
